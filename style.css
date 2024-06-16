@@ -8692,13 +8692,19 @@ body .search-modal .close:hover {
     28. Partner Section CSS
 ------------------------------------*/
 .rs-partner {
-  background-image: linear-gradient(330deg, #00005b 0%, #020275 90%);
+  background-image: linear-gradient(330deg, #00005b 0%, #020275 70%);
+  padding-bottom: 5px;
 }
 .rs-partner .partner-item .logo-img a {
   overflow: hidden;
   display: inline-block;
   position: relative;
   transition: all 0.3s ease-in-out;
+}
+.rs-partner .partner-item .logo-img a .wrapper {
+  width: 100px; 
+  height: 50px;
+  padding-bottom: 10px;
 }
 .rs-partner .partner-item .logo-img a .hover-logo {
   transition: all 0.3s ease-in-out;
